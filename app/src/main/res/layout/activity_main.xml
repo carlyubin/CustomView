@@ -121,4 +121,11 @@
             android:textSize="24sp" />
 
     </com.carl.customview.view.RCRelativeLayout>
+    <com.carl.customview.view.CircleMenuView
+        android:id="@+id/circle_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:button_colors="@array/colors"
+        app:button_icons="@array/icons"/>
+
 </RelativeLayout>

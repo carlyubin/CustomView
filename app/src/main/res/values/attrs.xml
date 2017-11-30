@@ -24,4 +24,25 @@
         <attr name="stroke_color" format="color|reference"/>
         <attr name="stroke_width" format="integer|dimension"/>
     </declare-styleable>
+
+    <declare-styleable name="CircleMenuView">
+        <!-- Array of buttons icons. -->
+        <attr name="button_icons" format="reference"/>
+        <!-- Array of buttons colors. -->
+        <attr name="button_colors" format="reference"/>
+        <!-- Menu default icon. -->
+        <attr name="icon_menu" format="reference"/>
+        <!-- Menu closed icon. -->
+        <attr name="icon_close" format="reference"/>
+        <!-- Menu icon color. -->
+        <attr name="icon_color" format="color"/>
+        <!-- Ring effect duration. -->
+        <attr name="duration_ring" format="integer"/>
+        <!-- Menu opening animation duration. -->
+        <attr name="duration_open" format="integer"/>
+        <!-- Menu closing animation duration. -->
+        <attr name="duration_close" format="integer"/>
+        <!-- Distance between center button and buttons. -->
+        <attr name="distance" format="dimension"/>
+    </declare-styleable>
 </resources>
